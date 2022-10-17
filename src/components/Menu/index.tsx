@@ -19,6 +19,9 @@ export const Menu = () => {
                 <li>
                     <Link to="/posts/10" className='link'>Post 10</Link>
                 </li>
+                <li>
+                    <Link to="/redirect" className='link'>Redirect</Link>
+                </li>
             </ul>
         </nav>
     )
